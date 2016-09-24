@@ -12,6 +12,7 @@ redis = r.StrictRedis(host='localhost', port=6379, db=0)
 token = '' # Your Token Here
 bot = telebot.TeleBot(token)
 admin = 224976780
+bot.send_message(admin,'Bot Started')
 
 #Start Project!
 
